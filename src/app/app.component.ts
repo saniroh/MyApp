@@ -1,3 +1,4 @@
+import { GMapPage } from './../pages/g-map/g-map';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -26,7 +27,8 @@ export class MyApp {
       { title: 'Home', component: HomePage, icon : 'md-send' },
       { title: 'List', component: ListPage, icon : 'md-ionic' },
       { title: 'SocialInfoPage', component: SocialInfoPage, icon : 'md-contact' },
-      { title: 'BarcodescannerPage', component: BarcodescannerPage, icon : 'md-contact' }
+      { title: 'BarcodescannerPage', component: BarcodescannerPage, icon : 'md-contact' },
+      { title: 'Geolocation', component: GMapPage, icon : 'apps'}
     ];
 
   }
